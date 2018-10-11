@@ -20,8 +20,8 @@ spec:
     spec:
       containers:
       - name: planespotter-frontend
-        image: nvpnathan/planespotter-frontend
-        imagePullPolicy: IfNotPresent
+        image: nvpnathan/planespotter-frontend:v1
+        imagePullPolicy: Always
         env:
         - name: PLANESPOTTER_API_ENDPOINT
           value: planespotter-svc
