@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # EDIT names and domain
-CONCOURSE_ENDPOINT=fly.vballin.com:8080
+CONCOURSE_ENDPOINT=hammer.corp.local:8080
 CONCOURSE_TARGET=nsx-concourse
 PIPELINE_NAME=install-nsx-t
 CONCOURSE_USER=nsx
